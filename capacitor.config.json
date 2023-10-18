@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.app",
+  "appName": "snowpack-capacitor",
+  "webDir": "target/build",
+  "server": {
+    "androidScheme": "https"
+  }
+}

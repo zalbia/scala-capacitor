@@ -7,4 +7,7 @@ lazy val root = project
     scalaVersion := "2.13.12",
     scalaJSUseMainModuleInitializer := true,
     scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) },
+    libraryDependencies ++= Seq(
+      "com.raquo" %%% "laminar" % "16.0.0"
+    )
 )
