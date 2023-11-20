@@ -20,6 +20,7 @@ lazy val root = project
     stIgnore ++= List(
       "@capacitor/android",
       "@capacitor/cli",
-      "@capacitor/core"
+      "@capacitor/core",
+      "@capacitor/ios"
     )
   )
